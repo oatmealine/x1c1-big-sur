@@ -2,7 +2,7 @@
 
 OpenCore EFI files for getting macOS 11 (Big Sur) running on a Thinkpad X1 Carbon 1st Gen laptop
 
-current status: **BROKEN**, stuck on [PCI allocation issues](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#stuck-on-rtc-pci-configuration-begins-previous-shutdown-hpet-hid-legacy)
+current status: **WORKS**, though haven't gotten past install juuust yet
 
 i'll prolly put more docs here if/when i get it to work
 

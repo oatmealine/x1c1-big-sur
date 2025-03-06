@@ -1646,7 +1646,7 @@
 			</array>
 		</dict>
 		<key>LegacyOverwrite</key>
-		<false/>
+		<true/>
 		<key>LegacySchema</key>
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -1809,6 +1809,18 @@
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
 			</dict>
+		  <dict>
+	  		<key>Arguments</key>
+	  		<string></string>
+	  		<key>Comment</key>
+	  		<string>OpenVariableRuntimeDxe.efi</string>
+	  		<key>Enabled</key>
+	  		<true/>
+	  		<key>LoadEarly</key>
+	  		<true/>
+	  		<key>Path</key>
+	  		<string>OpenVariableRuntimeDxe.efi</string>
+	  	</dict>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
@@ -1817,7 +1829,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
