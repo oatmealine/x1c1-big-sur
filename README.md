@@ -53,13 +53,13 @@ battery alone
 - volume controls
 - keyboard light control
 - sleep mode
+- backlight control
 
 ## what doesn't work
 
 - secure boot (hasn't affected much so far i think)
 - airport features (although Heliport works fine)
 - wifi w/ WPA2 Enterprise (requires AirportItlwm i think)
-- backlight control
 - brightness keys
 - LogoutHook, by extension i think NVRAM is borked
 
