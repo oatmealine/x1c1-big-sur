@@ -62,6 +62,7 @@ battery alone
 - brightness keys
 - sleep mode
 - LogoutHook
+- android USB file transfer
 
 ## untested
 
@@ -73,6 +74,7 @@ battery alone
 - app store, anything else that requires a vaild serial
 - imessage, facetime, icloud, etc. i do not have an Apple ID
 - handoff. i do not have any apple devices
+- iphone/ipad file transfer
 
 # fixes
 
