@@ -62,7 +62,6 @@ battery alone
 - brightness keys
 - sleep mode
 - LogoutHook
-- android USB file transfer
 
 ## untested
 
