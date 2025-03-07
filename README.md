@@ -52,6 +52,7 @@ battery alone
 - screensaver
 - volume controls
 - keyboard light control
+- sleep mode
 
 ## what doesn't work
 
@@ -60,8 +61,7 @@ battery alone
 - wifi w/ WPA2 Enterprise (requires AirportItlwm i think)
 - backlight control
 - brightness keys
-- sleep mode
-- LogoutHook
+- LogoutHook, by extension i think NVRAM is borked
 
 ## untested
 
