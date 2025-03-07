@@ -70,9 +70,11 @@ battery alone
 - VMs
 - bluetooth
 - DRM
+- microUSB port
 - app store, anything else that requires a vaild serial
 - imessage, facetime, icloud, etc. i do not have an Apple ID
 - handoff. i do not have any apple devices
+- iphone/ipad file transfer
 
 # fixes
 
