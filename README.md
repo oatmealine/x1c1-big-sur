@@ -27,6 +27,13 @@ i can't guarantee this'll work as well for any other model, but give it a try
 anyways; i'm fairly sure the main difference between the x1c1s comes down to
 display size and CPU
 
+## scripts
+
+- `sync-usb.sh` is for use while booted into a Linux-like system to sync the
+EFI files in the repo to a plugged in flash drive
+- `sync-boot.sh` is for already booted macOS systems to sync the EFI files in
+the repo to the EFI partition
+
 # status
 
 very few issues remain, though you will inevitably run into jank every once
@@ -62,13 +69,14 @@ battery alone
 - wifi w/ WPA2 Enterprise (requires AirportItlwm i think)
 - brightness keys
 - LogoutHook, by extension i think NVRAM is borked
+- bluetooth
+- hibernation
 
 ## untested
 
 - mirroring, external displays, airplay
 - airdrop
 - VMs
-- bluetooth
 - DRM
 - microUSB port
 - app store, anything else that requires a vaild serial
