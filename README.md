@@ -107,6 +107,10 @@ todo
 i used layoud ID 6 since it's the first one that works. no clue if there's any
 point in picking any other one
 
+## backlight
+
+SSDT_PNLF only started working for me w/ the iGPU register code included
+
 ## also see
 
 a few fixes were crossreferenced from faithvoid's [X1C1-Mojave](https://github.com/faithvoid/X1C1-Mojave)
