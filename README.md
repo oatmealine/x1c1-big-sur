@@ -68,12 +68,12 @@ battery alone
 - airport features (although Heliport works fine)
 - wifi w/ WPA2 Enterprise (requires AirportItlwm i think)
 - brightness keys
-- LogoutHook, by extension i think NVRAM is borked
 - bluetooth
 - hibernation (maybe??? it's inconsistent..)
 
 ## untested
 
+- nvram (testing has been inconclusive, but it SHOULD work..)
 - mirroring, external displays, airplay
 - airdrop
 - VMs
@@ -103,13 +103,16 @@ if your NVRAM is fucked, you'll likely get stuck on a message like
 `apfs_module_load` (this message should not typically result in a visible lag
 spike from my experience)
 
+after installing, you'll want to set up LogoutHook from OpenCore's release
+archive (`./Launchd.command install`)
+
 ## sound
 
 for sound i'm using `AppleALC.kext`. for the `ALC269VC`
 codec AppleALC recommends using the following layouts:
 
 ```
-todo
+0x100203, 0x100004, 0x100202, 0x100100, layout 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 36, 37, 38, 39, 40, 44, 45, 47, 55, 58, 66, 69, 76, 77, 88, 89, 91, 93, 99, 100, 111, 127, 128, 138, 188
 ```
 
 i used layoud ID 6 since it's the first one that works. no clue if there's any
