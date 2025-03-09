@@ -70,7 +70,7 @@ battery alone
 - brightness keys
 - LogoutHook, by extension i think NVRAM is borked
 - bluetooth
-- hibernation
+- hibernation (maybe??? it's inconsistent..)
 
 ## untested
 
