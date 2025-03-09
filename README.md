@@ -61,6 +61,7 @@ battery alone
 - keyboard light control
 - sleep mode
 - backlight control
+- apple id, app store, icloud
 
 ## what doesn't work
 
@@ -79,8 +80,7 @@ battery alone
 - VMs
 - DRM
 - microUSB port
-- app store, anything else that requires a vaild serial
-- imessage, facetime, icloud, etc. i do not have an Apple ID
+- imessage, facetime, icloud
 - handoff. i do not have any apple devices
 - iphone/ipad file transfer
 

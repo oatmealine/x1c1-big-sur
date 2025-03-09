@@ -365,6 +365,16 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQ==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x1)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQ==</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
 			<dict>
 				<key>layout-id</key>
@@ -992,6 +1002,28 @@
 				<key>TextMode</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>CleanNvram.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
+				<key>Name</key>
+				<string>CleanNvram.efi</string>
+				<key>Path</key>
+				<string>CleanNvram.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
@@ -1090,13 +1122,13 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02512108CDFD09AD</string>
+			<string>C02517130J9FD09CB</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>AB/zDk3s</data>
+			<data>bEAIilto</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1104,9 +1136,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookAir6,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02PGLZJF5N7</string>
+			<string>C02PMZYVF5N7</string>
 			<key>SystemUUID</key>
-			<string>08DD0C54-FD3A-4414-9076-D07E910BFA6D</string>
+			<string>EF4A8EBC-5AB7-4765-A7AC-E00D811813A5</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
